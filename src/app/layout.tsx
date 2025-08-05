@@ -7,13 +7,13 @@ import Link from 'next/link';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Empresa XYZ - Segurança Eletrônica, Elétrica e Ar-Condicionado",
-  description: "Especialistas em segurança eletrônica, instalações elétricas e ar-condicionado. Atendimento 24h via WhatsApp e e-mail.",
-  keywords: "segurança eletrônica, câmeras, alarmes, instalação elétrica, ar-condicionado, manutenção",
-  authors: [{ name: "Empresa XYZ" }],
+  title: "Energy & Soluções - Elétrica, Segurança Eletrônica e Ar-Condicionado",
+  description: "Especialistas em elétrica, segurança eletrônica e ar-condicionado. Atendimento 24h via WhatsApp e e-mail.",
+  keywords: "elétrica, segurança eletrônica, câmeras, alarmes, instalação elétrica, ar-condicionado, manutenção",
+  authors: [{ name: "Energy & Soluções" }],
   openGraph: {
-    title: "Empresa XYZ - Soluções Completas",
-    description: "Especialistas em segurança eletrônica, instalações elétricas e ar-condicionado",
+    title: "Energy & Soluções - Soluções Completas",
+    description: "Especialistas em elétrica, segurança eletrônica e ar-condicionado",
     type: "website",
   },
 };
@@ -31,7 +31,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4">
             <div className="flex justify-between items-center h-16">
               <Link href="/" className="text-2xl font-bold text-blue-600">
-                Empresa XYZ
+                Energy & Soluções
               </Link>
               
               <div className="hidden md:flex space-x-8">
@@ -51,7 +51,7 @@ export default function RootLayout({
 
               <div className="flex items-center space-x-4">
                 <a 
-                  href="https://wa.me/5511999999999?text=Olá! Gostaria de um orçamento para os serviços da Empresa XYZ"
+                  href="https://wa.me/5516993292993?text=Olá! Gostaria de um orçamento para os serviços da Energy & Soluções"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-500 text-white p-2 rounded-full hover:bg-green-600 transition-colors"
@@ -73,9 +73,9 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-xl font-bold mb-4">Empresa XYZ</h3>
+                <h3 className="text-xl font-bold mb-4">Energy & Soluções</h3>
                 <p className="text-gray-300 mb-4">
-                  Especialistas em segurança eletrônica, instalações elétricas e ar-condicionado.
+                  Especialistas em elétrica, segurança eletrônica e ar-condicionado.
                 </p>
                 <div className="flex space-x-4">
                   <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -90,8 +90,8 @@ export default function RootLayout({
               <div>
                 <h4 className="text-lg font-semibold mb-4">Serviços</h4>
                 <ul className="space-y-2 text-gray-300">
+                  <li>Elétrica</li>
                   <li>Segurança Eletrônica</li>
-                  <li>Instalações Elétricas</li>
                   <li>Ar-Condicionado</li>
                   <li>Manutenção</li>
                 </ul>
