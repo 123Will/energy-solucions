@@ -9,10 +9,10 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Empresa XYZ
+            Energy & Soluções
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            Especialistas em segurança eletrônica, instalações elétricas e ar-condicionado
+            Especialistas em Elétrica - Segurança Eletrônica - Ar Condicionado
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
@@ -36,12 +36,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Bem-vindo à Empresa XYZ
+              Bem-vindo à Energy & Soluções
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Somos uma empresa especializada em soluções completas para sua casa ou empresa, 
-              oferecendo serviços de qualidade em segurança eletrônica, instalações elétricas 
-              e climatização.
+              oferecendo serviços de qualidade em elétrica, segurança eletrônica e climatização.
             </p>
           </div>
 
@@ -90,7 +89,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.me/5511999999999?text=Olá! Gostaria de um orçamento para os serviços da Empresa XYZ"
+              href="https://wa.me/5516993292993?text=Olá! Gostaria de um orçamento para os serviços da Energy & Soluções"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-600 transition-colors flex items-center justify-center gap-2"
@@ -99,7 +98,7 @@ export default function Home() {
               WhatsApp
             </a>
             <a 
-              href="mailto:contato@empresaxyz.com.br"
+              href="mailto:contato@energy-solucoes.com.br"
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center gap-2"
             >
               <FaEnvelope />
